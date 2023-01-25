@@ -10,6 +10,7 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+- [Usage](#usage)
 - [Author](#author)
 
 ## Overview
@@ -45,6 +46,24 @@ Users should be able to:
 - Mobile-first workflow
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
 - [Swiper](https://swiperjs.com/) - JavaScript Library
+
+## Usage
+
+### Install dependencies (Tailwind)
+```
+npm install
+```
+
+Run the Tailwind CLI to compile the input.css during development. The output file is css/main.css
+```
+npm run watch
+```
+
+To build once run...
+```
+npm run build
+```
+>You can edit the scripts in package.json and the tailwind.config.js file to change input/output locations
 
 ## Author
 
