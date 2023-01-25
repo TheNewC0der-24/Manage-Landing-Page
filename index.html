@@ -267,15 +267,19 @@
 
             <!-- Input Container -->
             <div class="flex flex-col justify-between">
-                <form>
+                <form action="submit" name="email">
                     <div class="flex space-x-3 my-10 lg:my-0">
-                        <input type="text" class="flex-1 px-4 rounded-full focus:outline-none"
-                            placeholder="Updated in your inbox" />
-                        <button
+                        <div class="flex flex-col">
+                            <input type="email" name="email" id="email_input"
+                                class="flex-1 py-3 px-4 rounded-full focus:outline-none"
+                                placeholder="Updated in your inbox" />
+                        </div>
+                        <button type="submit" id="go_btn"
                             class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
                             Go
                         </button>
                     </div>
+                    <div class="error text-red-500"></div>
                 </form>
                 <div class="hidden text-white lg:block">
                     Copyright &copy; 2023, All Rights Reserved
