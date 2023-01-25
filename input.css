@@ -73,6 +73,10 @@ body {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
+.swiper-pagination {
+    display: none;
+}
+
 /* Form */
 .error {
     display: none;
